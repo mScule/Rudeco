@@ -1,0 +1,29 @@
+#red = {
+    #text = %;
+    :out "$R", #text, "$W"
+};
+
+#green = {
+    #text = %;
+    :out "$G", #text, "$W"
+};
+
+#blue = {
+    #text = %;
+    :out "$B", #text, "$W"
+};
+
+#yellow = {
+    #text = %;
+    :out "$Y", #text, "$W"
+};
+
+#cyan = {
+    #text = %;
+    :out "$C", #text, "$W"
+};
+
+#magneta = {
+    #text = %;
+    :out "$M", #text, "$W"
+};

@@ -1,0 +1,23 @@
+#fizzbuzz = {
+
+    :library "math.grdl";
+
+    #times = %;
+    #i = 0;
+    
+    :times #times, {
+
+        #Fizz = :task #remainder, #i, 3;
+        #Buzz = :task #remainder, #i, 5;
+        
+        :when #Fizz, "==", 0, { :out "Fizz" };
+        :when #Buzz, "==", 0, { :out "Buzz" };
+        
+        :when #Fizz, "!=", 0, {
+            :when #Buzz, "!=", 0, ":out #i"
+        };
+
+    :out "\n";
+    #i++
+    }
+};
